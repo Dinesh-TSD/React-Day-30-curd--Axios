@@ -60,7 +60,9 @@ const UsersList = () => {
 
             { //loading is true display RingLoader or display Users
               data.loading ? (
-                <RingLoader color="blue" className="text-center " />
+                <div className="ring">
+                  <RingLoader color="blue" id='ringloader' className="text-center " />
+                  </div>
               ) : (
                 <div className="table-responsive">
                   {Array.isArray(data.users) && data.users.length > 0 ? (
