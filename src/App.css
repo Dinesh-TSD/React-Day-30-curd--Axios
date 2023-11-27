@@ -1,8 +1,9 @@
 .topbar {
-  background-color: rgb(102, 41, 160)
+  background-color: rgb(75, 41, 160)
 }
 
 .header {
+  margin-top: 10px;
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
