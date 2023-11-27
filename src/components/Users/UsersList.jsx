@@ -67,7 +67,7 @@ const UsersList = () => {
                 <div className="table-responsive">
                   {Array.isArray(data.users) && data.users.length > 0 ? (
                     <table className="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                      <thead>
+                      <thead className='table-light'>
                         <tr>
                           <th>No</th>
                           <th>Name</th>
@@ -80,7 +80,7 @@ const UsersList = () => {
                           <th>Action</th>
                         </tr>
                       </thead>
-                      <tfoot>
+                      <tfoot className='table-light'>
                         <tr>
                           <th>No</th>
                           <th>Name</th>
