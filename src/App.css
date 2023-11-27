@@ -1,0 +1,28 @@
+.topbar{
+  background-color: rgb(102, 41, 160)
+}
+.header{
+  color: rgb(255, 255, 255);
+font-weight: 500;
+}
+.header .soft{
+  color: rgb(62, 77, 244);
+font-weight: 500;
+}
+.header span{
+  color: rgb(248, 254, 58);
+font-weight: 500;
+}
+.navlinks{
+  color: rgb(255, 255, 255) !important;
+  font-size: 20px !important;
+  font-weight: 400;
+  margin-left: 4rem;
+}
+.active{
+  color: black;
+  background-color: brown;
+}
+ul .pname{
+  color: white !important;
+}

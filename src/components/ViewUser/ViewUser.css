@@ -1,0 +1,7 @@
+.card-header{
+    color: blue !important;
+    font-weight: 600 !important;
+}
+.view tbody tr td{
+    font-size: 18px;
+}
